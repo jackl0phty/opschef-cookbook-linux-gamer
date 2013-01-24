@@ -109,7 +109,7 @@ Attributes
 ==========
 
 # Note: By default, this cookbook doesn't install/configure anything. 
-# Set to 'yes' to install everything this cookbook as to offter.
+# Set to 'yes' to install all games supported by this cookbook.
 <pre><code>
 default['linux-gamer']['install_all'] = "no"
 </pre></code>
@@ -145,4 +145,6 @@ default['linux-gamer']['install_pvpgn_client'] = "no"
 </pre></code>
 
 # Install PVPGN server ( e.g. Player vs. Player Gaming Network )
+<pre><code>
 default['linux-gamer']['install_open_arena_server'] = "no"
+</pre></code>
