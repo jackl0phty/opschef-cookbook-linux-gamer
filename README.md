@@ -6,7 +6,7 @@ Description
 
 Primary objective of this cookbook: Install/configure open source games on the GNU/Linux platform.
 
-Will probably focus on Debian/Ubuntu support since Linux Mint+Cinnamon is my gameing platform of choice.
+Will probably focus on Debian/Ubuntu support since Linux Mint+Cinnamon is my gaming platform of choice.
 
 Supported Platforms
 ===================
