@@ -4,11 +4,7 @@ Travis-ci status: [![Build Status](https://secure.travis-ci.org/jackl0phty/opsch
 Description
 ===========
 
-Primary objective of this cookbook: Install/configure things only a Linux gamer could appreciate!
-
-Seconday objective of this cookbook: Install/configure every OSS/F(L)OSS game and game server known to man!
-
-I know quite the daunting task, but hey, a sysadmin can dream can't he?
+Primary objective of this cookbook: Install/configure open source games on the GNU/Linux platform.
 
 Will probably focus on Debian/Ubuntu support since Linux Mint+Cinnamon is my gameing platform of choice.
 
