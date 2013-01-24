@@ -108,7 +108,7 @@ Add the following to your run list to install role playing games (RPG). (clients
 Attributes
 ==========
 
-Note: By default, this cookbook doesn't install/configure anything. 
+Note: By default, this cookbook doesn't install/configure anything.
 Set to 'yes' to install all games supported by this cookbook.
 <pre><code>
 default['linux-gamer']['install_all'] = "no"
