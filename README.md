@@ -108,43 +108,43 @@ Add the following to your run list to install role playing games (RPG). (clients
 Attributes
 ==========
 
-# Note: By default, this cookbook doesn't install/configure anything. 
-# Set to 'yes' to install all games supported by this cookbook.
+Note: By default, this cookbook doesn't install/configure anything. 
+Set to 'yes' to install all games supported by this cookbook.
 <pre><code>
 default['linux-gamer']['install_all'] = "no"
 </pre></code>
 
-# Set to yes to install latest wine via apt-get
+Set to yes to install latest wine via apt-get
 <pre><code>
 default['linux-gamer']['install_wine'] = "no"
 </pre></code>
 
-# This is set to latest version of wine
+This is set to latest version of wine
 <pre><code>
 default['linux-gamer']['latest_stable_wine'] = "1.4"
 </pre></code>
 
-# Set to yes to install latest wine from source to /opt
+Set to yes to install latest wine from source to /opt
 <pre></code>
 default['linux-gamer']['install_wine_from_source'] = "no"
 </pre></code>
 
-# Install Open Arena client
+Install Open Arena client
 <pre><code>
 default['linux-gamer']['install_open_arena_client'] = "no"
 </pre></code>
 
-# Install Open Arena server
+Install Open Arena server
 </pre></code>
 default['linux-gamer']['install_open_arena_server'] = "no"
 </pre></code>
 
-# Install PVPGN client ( e.g. Player vs. Player Gaming Network )
+Install PVPGN client ( e.g. Player vs. Player Gaming Network )
 <pre><code>
 default['linux-gamer']['install_pvpgn_client'] = "no"
 </pre></code>
 
-# Install PVPGN server ( e.g. Player vs. Player Gaming Network )
+Install PVPGN server ( e.g. Player vs. Player Gaming Network )
 <pre><code>
 default['linux-gamer']['install_open_arena_server'] = "no"
 </pre></code>
