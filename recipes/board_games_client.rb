@@ -13,8 +13,8 @@ case node["platform"]
         eboard eboard-extras-pack1 mah-jong bovo kiriki kreversi kfourinline
         gnome-mastermind ksquares kigo yahtzeesharp openyahtzee quarry
         cgoban gnugo qgo dreamchess kajongg xshisen kshisen fltk1.3-games
-        ace-of-penguins xboard gnubg biloba pouetchess stroq pente brutalchess
-        knights glaurung fruit tagua gnudoq gtkatlantic asciijump pyscrabble
+        ace-of-penguins xboard gnubg biloba pente brutalchess
+        knights glaurung fruit gnudoq gtkatlantic asciijump pyscrabble
         gtkboard gomoku.app londonlaw gamazons }.each do |pkg|
      package pkg
   end

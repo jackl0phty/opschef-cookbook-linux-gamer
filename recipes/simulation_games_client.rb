@@ -10,7 +10,7 @@
 case node["platform"]
   when "debian","ubuntu","linuxmint"
     %w{ supertuxkart simutrans oolite torcs billard-gl openbve lincity-ng flightgear
-        micropolis gl-117 avida-qt-viewer achilles acm acm4 }.each do |pkg|
+        micropolis gl-117 achilles acm }.each do |pkg|
      package pkg
   end
 end
